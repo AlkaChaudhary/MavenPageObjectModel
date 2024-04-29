@@ -42,15 +42,15 @@ Step 1 : Create .bash_profile
 
 Command to view hidden files
 
-$ defaults write com.apple.finder AppleShowAllFiles TRUE
+       $ defaults write com.apple.finder AppleShowAllFiles TRUE
 
 Step 2: Click on Finder of user profile then press Option key and select Relaunch option
 
 Step 3 Open .bash_profile from the hidden file and write
 
-export M2_HOME=/Users/AlkaChaudhary1/apache-maven-3.9.6
+        export M2_HOME=/Users/AlkaChaudhary1/apache-maven-3.9.6
 
-export PATH=$PATH:/Users/AlkaChaudhary1/apache-maven-3.9.6/bin
+        export PATH=$PATH:/Users/AlkaChaudhary1/apache-maven-3.9.6/bin
 
 Step 4 Check if Maven is already installed
        $ mvn --version
