@@ -1,42 +1,42 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 77.319 s <<< FAILURE! - in TestSuite
-sampleTest(pPack.LoginSearchProdWishlistTest)  Time elapsed: 20.034 s  <<< FAILURE!
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 74.073 s <<< FAILURE! - in TestSuite
+sampleTest(pPack.LoginSearchProdWishlistTest)  Time elapsed: 19.636 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='btn-group']//i[contains(@class,'fa-shopping')]"}
   (Session info: chrome=124.0.6367.91)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.4', java.version: '21.0.3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.4', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1b37f8a6599dc8fc67ec49af0fd94fcb, findElement {using=xpath, value=//div[@class='btn-group']//i[contains(@class,'fa-shopping')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.91, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: /var/folders/5t/t3bhhmr51mg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53481/devtoo..., se:cdpVersion: 124.0.6367.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1b37f8a6599dc8fc67ec49af0fd94fcb
+Command: [be5c8837b165a496438590073c58a8cd, findElement {using=xpath, value=//div[@class='btn-group']//i[contains(@class,'fa-shopping')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.91, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: /var/folders/5t/t3bhhmr51mg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56205}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56205/devtoo..., se:cdpVersion: 124.0.6367.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: be5c8837b165a496438590073c58a8cd
 	at pPack.LoginSearchProdWishlistTest.sampleTest(LoginSearchProdWishlistTest.java:39)
 
-sampleTest(pPack.RegisterUserSearchProductAddCartTest)  Time elapsed: 19.109 s  <<< FAILURE!
+sampleTest(pPack.RegisterUserSearchProductAddCartTest)  Time elapsed: 17.427 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'product-grid')]//img[@title='Samsung SyncMaster 941BW']"}
+no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='breadcrumb']//a[text()='Success']"}
   (Session info: chrome=124.0.6367.91)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.4', java.version: '21.0.3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.4', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a7557bc835b4719e15fdf676976a5f6e, findElement {using=xpath, value=//div[contains(@class,'product-grid')]//img[@title='Samsung SyncMaster 941BW']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.91, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: /var/folders/5t/t3bhhmr51mg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55713}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55713/devtoo..., se:cdpVersion: 124.0.6367.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a7557bc835b4719e15fdf676976a5f6e
-	at pPack.RegisterUserSearchProductAddCartTest.sampleTest(RegisterUserSearchProductAddCartTest.java:53)
+Command: [9d96e3163782d630301b201d08a50149, findElement {using=xpath, value=//ul[@class='breadcrumb']//a[text()='Success']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.91, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: /var/folders/5t/t3bhhmr51mg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56293}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56293/devtoo..., se:cdpVersion: 124.0.6367.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d96e3163782d630301b201d08a50149
+	at pPack.RegisterUserSearchProductAddCartTest.sampleTest(RegisterUserSearchProductAddCartTest.java:46)
 
-sampleTest(pPack.LoginSearchAddCartChkOutTest)  Time elapsed: 21.816 s  <<< FAILURE!
+sampleTest(pPack.LoginSearchAddCartChkOutTest)  Time elapsed: 20.995 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
 Unable to locate element: //input[@name='payment_address'and @value='new']
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.4', java.version: '21.0.3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.4', java.version: '17.0.7'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [e2cd16ef-a5aa-42aa-a192-66afc72aae87, findElement {using=xpath, value=//input[@name='payment_address'and @value='new']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 124.0.2, moz:accessibilityChecks: false, moz:buildID: 20240401114208, moz:debuggerAddress: 127.0.0.1:20965, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 23.4.0, moz:processID: 6946, moz:profile: /var/folders/5t/t3bhhmr51mg..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:20965/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e2cd16ef-a5aa-42aa-a192-66afc72aae87
+Command: [249116dd-78fb-41fb-8697-f65218b02fba, findElement {using=xpath, value=//input[@name='payment_address'and @value='new']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 124.0.2, moz:accessibilityChecks: false, moz:buildID: 20240401114208, moz:debuggerAddress: 127.0.0.1:4815, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 23.4.0, moz:processID: 9494, moz:profile: /var/folders/5t/t3bhhmr51mg..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:4815/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 249116dd-78fb-41fb-8697-f65218b02fba
 	at pPack.LoginSearchAddCartChkOutTest.sampleTest(LoginSearchAddCartChkOutTest.java:62)
 

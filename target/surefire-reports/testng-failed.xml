@@ -3,6 +3,12 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="1" name="Surefire test(failed)" verbose="0">
     <classes>
+      <class name="pPack.LoginSearchProdWishlistTest">
+        <methods>
+          <include name="closure"/>
+          <include name="sampleTest"/>
+        </methods>
+      </class> <!-- pPack.LoginSearchProdWishlistTest -->
       <class name="pPack.LoginSearchAddCartChkOutTest">
         <methods>
           <include name="sampleTest"/>
@@ -15,12 +21,6 @@
           <include name="closure"/>
         </methods>
       </class> <!-- pPack.RegisterUserSearchProductAddCartTest -->
-      <class name="pPack.LoginSearchProdWishlistTest">
-        <methods>
-          <include name="closure"/>
-          <include name="sampleTest"/>
-        </methods>
-      </class> <!-- pPack.LoginSearchProdWishlistTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

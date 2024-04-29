@@ -28,7 +28,7 @@ public class RegisterTest {
 		RegisterAcctPage rp=new RegisterAcctPage(driver);
 		rp.firstNameField().sendKeys("Alka");
 		rp.lastNameField().sendKeys("Chaudhary");
-		rp.emailField().sendKeys("alka17@gmail.com");
+		rp.emailField().sendKeys("alka19@gmail.com");
 		rp.telephoneField().sendKeys("1234567821");
 		rp.passwordField().sendKeys("Standard");
 		rp.passwordConfirmField().sendKeys("Standard");
