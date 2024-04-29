@@ -37,7 +37,9 @@ Step5 : Check again if Maven is installed (It is only installed for specific ter
 ### To Make Maven available for future sessions
 
 Step 1 : Create .bash_profile
+       
        $ touch .bash_profile
+
 Command to view hidden files
 $ defaults write com.apple.finder AppleShowAllFiles TRUE
 
