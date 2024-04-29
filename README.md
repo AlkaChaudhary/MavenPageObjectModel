@@ -18,3 +18,39 @@
 - Click on Finish
 - It will be generating project in confirm with Y then Enter.
 - Open the pom.xml file and add necssary denpencies related to project
+
+## How to install MAVEN on Mac OS
+Step1 : Check if Maven is already installed
+              $ mvn --version
+
+Step2 : Download Maven from internet
+             https://maven.apache.org/download.cgi
+
+Step3 : Unzip and place at some location on your system
+
+Step4 : Set System variables
+    M2_HOME
+    PATH
+Step5 : Check again if Maven is installed (It is only installed for specific terminal session)
+
+————————————————————
+### To Make Maven available for future sessions
+
+Step 1 : Create .bash_profile
+       $ touch .bash_profile
+Command to view hidden files
+$ defaults write com.apple.finder AppleShowAllFiles TRUE
+
+Step 2: Click on Finder of user profile then press Option key and select Relaunch option
+
+Step 3 Open .bash_profile from the hidden file and write
+export M2_HOME=/Users/AlkaChaudhary1/apache-maven-3.9.6
+export PATH=$PATH:/Users/AlkaChaudhary1/apache-maven-3.9.6/bin
+
+Step 4 Check if Maven is already installed
+       $ mvn --version
+
+
+
+
+
