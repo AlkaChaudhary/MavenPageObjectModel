@@ -28,9 +28,12 @@ Step2 : Download Maven from internet
 
 Step3 : Unzip and place at some location on your system
 
-Step4 : Set System variables
-    M2_HOME
-    PATH
+Step4 : Set System variables in bash profile
+        
+         M2_HOME=/Users/AlkaChaudhary1/apache-maven-3.9.6
+         
+         PATH=$PATH:/Users/AlkaChaudhary1/apache-maven-3.9.6/bin
+        
 Step5 : Check again if Maven is installed (It is only installed for specific terminal session)
 
 ————————————————————
