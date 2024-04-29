@@ -53,6 +53,7 @@ Step 3 Open .bash_profile from the hidden file and write
         export PATH=$PATH:/Users/AlkaChaudhary1/apache-maven-3.9.6/bin
 
 Step 4 Check if Maven is already installed
+       
        $ mvn --version
 
 
