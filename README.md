@@ -41,6 +41,7 @@ Step 1 : Create .bash_profile
        $ touch .bash_profile
 
 Command to view hidden files
+
 $ defaults write com.apple.finder AppleShowAllFiles TRUE
 
 Step 2: Click on Finder of user profile then press Option key and select Relaunch option
